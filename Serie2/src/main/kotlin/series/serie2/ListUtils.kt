@@ -12,6 +12,10 @@ public class Node<E> {
     }
 }
 
+fun main() {
+
+}
+
 ///////////////////////////////////////////////////////////////
 /**
  * returns the node in the middle of the list
