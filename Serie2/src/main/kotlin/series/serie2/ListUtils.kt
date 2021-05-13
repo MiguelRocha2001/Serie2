@@ -12,10 +12,6 @@ public class Node<E> {
     }
 }
 
-fun main() {
-    println()
-}
-
 ///////////////////////////////////////////////////////////////
 /**
  * returns the node in the middle of the list
