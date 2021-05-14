@@ -1,5 +1,6 @@
 package Aulas.Aula_14
 
+
 class AEDArrayList<E>: AEDList<E> {
     private val elements: Array<E>
 
@@ -10,7 +11,7 @@ class AEDArrayList<E>: AEDList<E> {
     override val size: Int
         get() = elements.size
 
-    override fun contains(element: E): Boolean {
+    override fun contains(element: Int): Boolean {
         return elements.contains(element) // O(n)
     }
 
